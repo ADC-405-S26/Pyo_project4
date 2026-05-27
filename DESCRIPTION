@@ -1,0 +1,22 @@
+Package: project
+Title: Tools for Psychology Survey Data Processing
+Version: 0.0.0.9000
+Authors@R: 
+    person("Joonpyo", "Ahn", , "ahnjo@lawrence.edu", role = c("aut", "cre"))
+Description: Provides convenient functions to scale Likert-type responses, split survey keyword tags, and apply an APA-style ggplot2 theme for psychology research and papers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    checkmate,
+    ggplot2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
