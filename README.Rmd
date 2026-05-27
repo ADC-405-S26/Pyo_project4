@@ -17,7 +17,7 @@ The goal of this package is to provide convenient tools for psychology survey da
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/ADC-405-S26/Pyo_project4) with:
 
 ``` r
 # install.packages("pak")

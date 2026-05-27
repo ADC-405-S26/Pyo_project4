@@ -7,7 +7,7 @@ survey data processing and APA-style visualizations.
 ## Installation
 
 You can install the development version from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/ADC-405-S26/Pyo_project4) with:
 
 ``` r
 # install.packages("pak")
