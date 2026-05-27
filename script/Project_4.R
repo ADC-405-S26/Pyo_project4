@@ -69,3 +69,16 @@ pkgdown::build_site()
 usethis::use_readme_rmd()
 devtools::build_readme()
 pkgdown::build_site()
+
+usethis::use_build_ignore("script")
+
+install.packages(c("devtools", "ggplot2", "checkmate", "testthat", "pkgdown"))
+library(devtools)
+
+devtools::document()
+devtools::load_all()
+devtools::test()
+devtools::check()
+
+devtools::build_readme()
+pkgdown::build_site()
